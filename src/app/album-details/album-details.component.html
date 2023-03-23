@@ -1,0 +1,9 @@
+<div>
+    <mat-card *ngFor="let p of album">
+        <a href="{{p.url}}" target="_blank"><img mat-card-image src="{{p.thumbnailUrl}}" alt="{{p.title}}"></a>
+        <mat-card-content>
+            <p>{{p.title}}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>
